@@ -1,0 +1,1114 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>MOFCartDAO Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MOFramework </a></h1>
+				<a id="developerHome" href="../index.html">MyOrder B.V.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">MOFCartDAO Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/order">&nbsp;&nbsp;&nbsp;&nbsp;order</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addNewProductToCart:withOptions:quantity:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- addNewProductToCart:withOptions:quantity:animation:onResult:onError:</option>
+	
+	<option value="//api/name/cancelCheckoutOfOrder:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- cancelCheckoutOfOrder:animation:onResult:onError:</option>
+	
+	<option value="//api/name/loadCartWithAnimation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- loadCartWithAnimation:onResult:onError:</option>
+	
+	<option value="//api/name/loadFulfillmentMethodValues:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- loadFulfillmentMethodValues:animation:onResult:onError:</option>
+	
+	<option value="//api/name/removeItem:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- removeItem:animation:onResult:onError:</option>
+	
+	<option value="//api/name/removeProductFromCart:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- removeProductFromCart:animation:onResult:onError:</option>
+	
+	<option value="//api/name/resetCartWithAnimation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- resetCartWithAnimation:onResult:onError:</option>
+	
+	<option value="//api/name/selectFulfillmentMethod:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- selectFulfillmentMethod:animation:onResult:onError:</option>
+	
+	<option value="//api/name/startCheckoutWithAnimation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- startCheckoutWithAnimation:onResult:onError:</option>
+	
+	<option value="//api/name/updateItem:withOptions:quantity:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- updateItem:withOptions:quantity:animation:onResult:onError:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/order">order</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addNewProductToCart:withOptions:quantity:animation:onResult:onError:">addNewProductToCart:withOptions:quantity:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancelCheckoutOfOrder:animation:onResult:onError:">cancelCheckoutOfOrder:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadCartWithAnimation:onResult:onError:">loadCartWithAnimation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadFulfillmentMethodValues:animation:onResult:onError:">loadFulfillmentMethodValues:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeItem:animation:onResult:onError:">removeItem:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeProductFromCart:animation:onResult:onError:">removeProductFromCart:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetCartWithAnimation:onResult:onError:">resetCartWithAnimation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectFulfillmentMethod:animation:onResult:onError:">selectFulfillmentMethod:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startCheckoutWithAnimation:onResult:onError:">startCheckoutWithAnimation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateItem:withOptions:quantity:animation:onResult:onError:">updateItem:withOptions:quantity:animation:onResult:onError:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="MOFCartDAO Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">MOFCartDAO Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/MOFBaseDAO.html">MOFBaseDAO</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">MOFCartDAO.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>DAO used to manage the shopping cart. Cart is server side syncrhonized, and required <a href="../Classes/MOFAuthDAO.html">MOFAuthDAO</a> with existing session
+(anonymous or logged in user)</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/order">&nbsp;&nbsp;order</a></code>
+		<span class="tooltip"><p>Loaded shopping cart order for the current session. It gets updated with any cart operation</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resetCartWithAnimation:onResult:onError:">&ndash;&nbsp;resetCartWithAnimation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Resets the shopping cart to a clean one</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadCartWithAnimation:onResult:onError:">&ndash;&nbsp;loadCartWithAnimation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Load an existing shopping cart from server. This methods gets called automatically on startup and when
+session status changes</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addNewProductToCart:withOptions:quantity:animation:onResult:onError:">&ndash;&nbsp;addNewProductToCart:withOptions:quantity:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Addes a new product to the cart</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeProductFromCart:animation:onResult:onError:">&ndash;&nbsp;removeProductFromCart:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Removes a product from the cart. Note that if the product is added multiple times with different
+option values they will all be deleted</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeItem:animation:onResult:onError:">&ndash;&nbsp;removeItem:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Removes a particular item from the cart.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateItem:withOptions:quantity:animation:onResult:onError:">&ndash;&nbsp;updateItem:withOptions:quantity:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Updates the quantity or selected values of a particular item in the cart.
+If quantity is equal or lower than 0, this method will invoke <code>removeItem:</code> automatically</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectFulfillmentMethod:animation:onResult:onError:">&ndash;&nbsp;selectFulfillmentMethod:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Sets one fulfillment method as the selected one. This call is required before proceding with the checkout</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadFulfillmentMethodValues:animation:onResult:onError:">&ndash;&nbsp;loadFulfillmentMethodValues:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Load all fulfillment method value for a particular fulfillment method. Important to load before checkout
+to check that the selected value is correct in case of timeblocks or blocks</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startCheckoutWithAnimation:onResult:onError:">&ndash;&nbsp;startCheckoutWithAnimation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Start the checkout of the shopping cart. This method returns an MOOrder object that can be passed directly to the MyOrder
+payment SDK to start the payment and removes the current cart (it is now checked out)</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cancelCheckoutOfOrder:animation:onResult:onError:">&ndash;&nbsp;cancelCheckoutOfOrder:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Cancels a previsouly checkout out <a href="#//api/name/order">order</a>. This method will revert the <a href="#//api/name/order">order</a> back into a valid shopping cart</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/order" title="order"></a>
+	<h3 class="subsubtitle method-title">order</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Loaded shopping cart order for the current session. It gets updated with any cart operation</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) MOFOrder *order</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Loaded shopping cart order for the current session. It gets updated with any cart operation</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addNewProductToCart:withOptions:quantity:animation:onResult:onError:" title="addNewProductToCart:withOptions:quantity:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">addNewProductToCart:withOptions:quantity:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Addes a new product to the cart</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addNewProductToCart:(MOFProduct *)<em>product</em> withOptions:(NSCountedSet *)<em>options</em> quantity:(NSInteger)<em>quantity</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>product</em></dt>
+			<dd><p>Product to add</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>options</em></dt>
+			<dd><p>Option values selected by user. Same option value can be passed multiple times</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>quantity</em></dt>
+			<dd><p>Amount of units to add</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Addes a new product to the cart</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cancelCheckoutOfOrder:animation:onResult:onError:" title="cancelCheckoutOfOrder:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">cancelCheckoutOfOrder:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Cancels a previsouly checkout out <a href="#//api/name/order">order</a>. This method will revert the <a href="#//api/name/order">order</a> back into a valid shopping cart</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)cancelCheckoutOfOrder:(MOFOrder *)<em>order</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>order</em></dt>
+			<dd><p>Checked out cart to revert into a regular cart</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Cancels a previsouly checkout out <a href="#//api/name/order">order</a>. This method will revert the <a href="#//api/name/order">order</a> back into a valid shopping cart</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadCartWithAnimation:onResult:onError:" title="loadCartWithAnimation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">loadCartWithAnimation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Load an existing shopping cart from server. This methods gets called automatically on startup and when
+session status changes</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)loadCartWithAnimation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Load an existing shopping cart from server. This methods gets called automatically on startup and when
+session status changes</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadFulfillmentMethodValues:animation:onResult:onError:" title="loadFulfillmentMethodValues:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">loadFulfillmentMethodValues:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Load all fulfillment method value for a particular fulfillment method. Important to load before checkout
+to check that the selected value is correct in case of timeblocks or blocks</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)loadFulfillmentMethodValues:(MOFFulfillmentMethod *)<em>method</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>method</em></dt>
+			<dd><p>Fulfillment method to load</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFFulfillmentMethod.html">MOFFulfillmentMethod</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Load all fulfillment method value for a particular fulfillment method. Important to load before checkout
+to check that the selected value is correct in case of timeblocks or blocks</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeItem:animation:onResult:onError:" title="removeItem:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">removeItem:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes a particular item from the cart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeItem:(MOFOrderItem *)<em>orderItem</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>orderItem</em></dt>
+			<dd><p>Order item to remove</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes a particular item from the cart.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeProductFromCart:animation:onResult:onError:" title="removeProductFromCart:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">removeProductFromCart:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes a product from the cart. Note that if the product is added multiple times with different
+option values they will all be deleted</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeProductFromCart:(MOFProduct *)<em>product</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>product</em></dt>
+			<dd><p>Product to delete</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes a product from the cart. Note that if the product is added multiple times with different
+option values they will all be deleted</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resetCartWithAnimation:onResult:onError:" title="resetCartWithAnimation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">resetCartWithAnimation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Resets the shopping cart to a clean one</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)resetCartWithAnimation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Resets the shopping cart to a clean one</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectFulfillmentMethod:animation:onResult:onError:" title="selectFulfillmentMethod:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">selectFulfillmentMethod:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets one fulfillment method as the selected one. This call is required before proceding with the checkout</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)selectFulfillmentMethod:(MOFFulfillmentMethod *)<em>method</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>method</em></dt>
+			<dd><p>Fulfillment method selected by the user</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sets one fulfillment method as the selected one. This call is required before proceding with the checkout</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startCheckoutWithAnimation:onResult:onError:" title="startCheckoutWithAnimation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">startCheckoutWithAnimation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Start the checkout of the shopping cart. This method returns an MOOrder object that can be passed directly to the MyOrder
+payment SDK to start the payment and removes the current cart (it is now checked out)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)startCheckoutWithAnimation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the created MOOrder to pay</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Start the checkout of the shopping cart. This method returns an MOOrder object that can be passed directly to the MyOrder
+payment SDK to start the payment and removes the current cart (it is now checked out)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateItem:withOptions:quantity:animation:onResult:onError:" title="updateItem:withOptions:quantity:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">updateItem:withOptions:quantity:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Updates the quantity or selected values of a particular item in the cart.
+If quantity is equal or lower than 0, this method will invoke <code>removeItem:</code> automatically</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updateItem:(MOFOrderItem *)<em>orderItem</em> withOptions:(NSCountedSet *)<em>options</em> quantity:(NSInteger)<em>quantity</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>orderItem</em></dt>
+			<dd><p>Order item to update</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>options</em></dt>
+			<dd><p>New set of product option values to update. If none passed, then previous values will be removed</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>quantity</em></dt>
+			<dd><p>New amount to set</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting updated <a href="../Classes/MOFOrder.html">MOFOrder</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Updates the quantity or selected values of a particular item in the cart.
+If quantity is equal or lower than 0, this method will invoke <code>removeItem:</code> automatically</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFCartDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 MyOrder B.V.. All rights reserved. (Last updated: 2014-06-27)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

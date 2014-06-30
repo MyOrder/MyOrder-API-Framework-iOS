@@ -1,0 +1,1072 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>MOFAuthDAO Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MOFramework </a></h1>
+				<a id="developerHome" href="../index.html">MyOrder B.V.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">MOFAuthDAO Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/isLogging">&nbsp;&nbsp;&nbsp;&nbsp;isLogging</option>
+	
+	<option value="//api/name/session">&nbsp;&nbsp;&nbsp;&nbsp;session</option>
+	
+	<option value="//api/name/user">&nbsp;&nbsp;&nbsp;&nbsp;user</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:</option>
+	
+	<option value="//api/name/loadUserWithAnimation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- loadUserWithAnimation:onResult:onError:</option>
+	
+	<option value="//api/name/loginAnonymouslyWithAnimation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- loginAnonymouslyWithAnimation:onResult:onError:</option>
+	
+	<option value="//api/name/logoutWithAnimation:force:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- logoutWithAnimation:force:onResult:onError:</option>
+	
+	<option value="//api/name/updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:</option>
+	
+	<option value="//api/name/updateUserImage:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- updateUserImage:animation:onResult:onError:</option>
+	
+	<option value="//api/name/updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isLogging">isLogging</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/session">session</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/user">user</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:">createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadUserWithAnimation:onResult:onError:">loadUserWithAnimation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loginAnonymouslyWithAnimation:onResult:onError:">loginAnonymouslyWithAnimation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logoutWithAnimation:force:onResult:onError:">logoutWithAnimation:force:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:">updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateUserImage:animation:onResult:onError:">updateUserImage:animation:onResult:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:">updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="MOFAuthDAO Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">MOFAuthDAO Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/MOFBaseDAO.html">MOFBaseDAO</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">MOFAuthDAO.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>DAO to manage login and <a href="#//api/name/user">user</a> data. Required for other DAOs to work</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/session">&nbsp;&nbsp;session</a></code>
+		<span class="tooltip"><p>Current session data. A session can be anonymous if <a href="#//api/name/user">user</a> is not logged in</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/user">&nbsp;&nbsp;user</a></code>
+		<span class="tooltip"><p>User data if <a href="#//api/name/session">session</a> is not annonymous</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isLogging">&nbsp;&nbsp;isLogging</a></code>
+		<span class="tooltip"><p>Property indicating if a login operation is in progress. Observable</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loginAnonymouslyWithAnimation:onResult:onError:">&ndash;&nbsp;loginAnonymouslyWithAnimation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Performs an anonymous login in the system. If <a href="#//api/name/user">user</a> is not logged in this method
+should be called to get an anonymous <a href="#//api/name/session">session</a></p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/logoutWithAnimation:force:onResult:onError:">&ndash;&nbsp;logoutWithAnimation:force:onResult:onError:</a></code>
+		<span class="tooltip"><p>Performs a logout in the system. This method also do a logout in the MyOrder Payment SDK</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadUserWithAnimation:onResult:onError:">&ndash;&nbsp;loadUserWithAnimation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Load <a href="#//api/name/user">user</a> details for current <a href="#//api/name/session">session</a>. This method is automatically called after a successful login</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:">&ndash;&nbsp;updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Update <a href="#//api/name/user">user</a> information with provided info</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateUserImage:animation:onResult:onError:">&ndash;&nbsp;updateUserImage:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Update <a href="#//api/name/user">user</a> profile image</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:">&ndash;&nbsp;createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Create a new address for the <a href="#//api/name/user">user</a>. Currently this method is equivalent to <code>updateUserAddress</code>
+because only 1 address is supported per <a href="#//api/name/user">user</a>.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:">&ndash;&nbsp;updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:</a></code>
+		<span class="tooltip"><p>Updates an existing address for a <a href="#//api/name/user">user</a> with new values</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/isLogging" title="isLogging"></a>
+	<h3 class="subsubtitle method-title">isLogging</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Property indicating if a login operation is in progress. Observable</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) BOOL isLogging</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Property indicating if a login operation is in progress. Observable</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/session" title="session"></a>
+	<h3 class="subsubtitle method-title">session</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Current session data. A session can be anonymous if <a href="#//api/name/user">user</a> is not logged in</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, strong) MOFSession *session</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Current session data. A session can be anonymous if <a href="#//api/name/user">user</a> is not logged in</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/user" title="user"></a>
+	<h3 class="subsubtitle method-title">user</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>User data if <a href="#//api/name/session">session</a> is not annonymous</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, strong) MOFUser *user</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>User data if <a href="#//api/name/session">session</a> is not annonymous</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:" title="createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">createUserAddressWithName:street:houseNumber:postCode:city:country:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Create a new address for the <a href="#//api/name/user">user</a>. Currently this method is equivalent to <code>updateUserAddress</code>
+because only 1 address is supported per <a href="#//api/name/user">user</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (MOFNetworkConnection *)createUserAddressWithName:(NSString *)<em>name</em> street:(NSString *)<em>street</em> houseNumber:(NSString *)<em>number</em> postCode:(NSString *)<em>postCode</em> city:(NSString *)<em>city</em> country:(NSString *)<em>country</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>name</em></dt>
+			<dd><p>Not implemented</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>street</em></dt>
+			<dd><p>New street. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>number</em></dt>
+			<dd><p>New house number. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>postCode</em></dt>
+			<dd><p>New postal code. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>city</em></dt>
+			<dd><p>New city. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>country</em></dt>
+			<dd><p>Not implemented</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting <a href="../Classes/MOFUser.html">MOFUser</a> object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection fired. Cancellable.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Create a new address for the <a href="#//api/name/user">user</a>. Currently this method is equivalent to <code>updateUserAddress</code>
+because only 1 address is supported per <a href="#//api/name/user">user</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadUserWithAnimation:onResult:onError:" title="loadUserWithAnimation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">loadUserWithAnimation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Load <a href="#//api/name/user">user</a> details for current <a href="#//api/name/session">session</a>. This method is automatically called after a successful login</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (MOFNetworkConnection *)loadUserWithAnimation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting <a href="../Classes/MOFUser.html">MOFUser</a> object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection fired. Cancellable.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Load <a href="#//api/name/user">user</a> details for current <a href="#//api/name/session">session</a>. This method is automatically called after a successful login</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loginAnonymouslyWithAnimation:onResult:onError:" title="loginAnonymouslyWithAnimation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">loginAnonymouslyWithAnimation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Performs an anonymous login in the system. If <a href="#//api/name/user">user</a> is not logged in this method
+should be called to get an anonymous <a href="#//api/name/session">session</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (MOFNetworkConnection *)loginAnonymouslyWithAnimation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting <a href="../Classes/MOFSession.html">MOFSession</a> object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection fired. Cancellable.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Performs an anonymous login in the system. If <a href="#//api/name/user">user</a> is not logged in this method
+should be called to get an anonymous <a href="#//api/name/session">session</a></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/logoutWithAnimation:force:onResult:onError:" title="logoutWithAnimation:force:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">logoutWithAnimation:force:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Performs a logout in the system. This method also do a logout in the MyOrder Payment SDK</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (MOFNetworkConnection *)logoutWithAnimation:(MOFNetworkAnimation)<em>animation</em> force:(BOOL)<em>force</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>force</em></dt>
+			<dd><p>If force make logout even for anonymous <a href="#//api/name/user">user</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting <a href="../Classes/MOFSession.html">MOFSession</a> object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection fired. Cancellable.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Performs a logout in the system. This method also do a logout in the MyOrder Payment SDK</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:" title="updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">updateUserAddress:withName:street:houseNumber:postCode:city:country:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Updates an existing address for a <a href="#//api/name/user">user</a> with new values</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (MOFNetworkConnection *)updateUserAddress:(MOFAddress *)<em>address</em> withName:(NSString *)<em>name</em> street:(NSString *)<em>street</em> houseNumber:(NSString *)<em>number</em> postCode:(NSString *)<em>postCode</em> city:(NSString *)<em>city</em> country:(NSString *)<em>country</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>address</em></dt>
+			<dd><p>Existing address to modify</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>name</em></dt>
+			<dd><p>Not implemented</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>street</em></dt>
+			<dd><p>New street. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>number</em></dt>
+			<dd><p>New house number. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>postCode</em></dt>
+			<dd><p>New postal code. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>city</em></dt>
+			<dd><p>New city. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>country</em></dt>
+			<dd><p>Not implemented</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting <a href="../Classes/MOFUser.html">MOFUser</a> object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection fired. Cancellable.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Updates an existing address for a <a href="#//api/name/user">user</a> with new values</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateUserImage:animation:onResult:onError:" title="updateUserImage:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">updateUserImage:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Update <a href="#//api/name/user">user</a> profile image</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (MOFNetworkConnection *)updateUserImage:(UIImage *)<em>image</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>image</em></dt>
+			<dd><p>UIImage to upload</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting <a href="../Classes/MOFUser.html">MOFUser</a> object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection fired. Cancellable.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Update <a href="#//api/name/user">user</a> profile image</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:" title="updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:"></a>
+	<h3 class="subsubtitle method-title">updateUserWithEmail:mobilePhone:firstName:lastName:birthDate:animation:onResult:onError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Update <a href="#//api/name/user">user</a> information with provided info</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (MOFNetworkConnection *)updateUserWithEmail:(NSString *)<em>email</em> mobilePhone:(NSString *)<em>mobilePhone</em> firstName:(NSString *)<em>firstName</em> lastName:(NSString *)<em>lastName</em> birthDate:(NSDate *)<em>birthDate</em> animation:(MOFNetworkAnimation)<em>animation</em> onResult:(MOFBaseDAOResultBlock)<em>resultBlock</em> onError:(MOFBaseDAOErrorBlock)<em>errorBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>email</em></dt>
+			<dd><p>New email. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>mobilePhone</em></dt>
+			<dd><p>New phone number. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>firstName</em></dt>
+			<dd><p>New first name. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lastName</em></dt>
+			<dd><p>New last name. Pass nil to keep previous</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>birthDate</em></dt>
+			<dd><p>New birthday. Not implemented yet</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>Animation type to pass to the animation handler of the request</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>resultBlock</em></dt>
+			<dd><p>Block executed with the resulting <a href="../Classes/MOFUser.html">MOFUser</a> object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>errorBlock</em></dt>
+			<dd><p>Block executed with the resulting error if any.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection fired. Cancellable.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Update <a href="#//api/name/user">user</a> information with provided info</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MOFAuthDAO.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 MyOrder B.V.. All rights reserved. (Last updated: 2014-06-27)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B12F155195D81390044ED98 /* MOFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F154195D81390044ED98 /* MOFramework.framework */; };
+		0B12F156195D81390044ED98 /* MOFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F154195D81390044ED98 /* MOFramework.framework */; };
+		0B12F158195D819A0044ED98 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F157195D819A0044ED98 /* CoreLocation.framework */; };
+		0B12F15A195D81B20044ED98 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F159195D81B20044ED98 /* PassKit.framework */; };
+		0B12F15C195D82070044ED98 /* MyOrder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F15B195D82070044ED98 /* MyOrder.framework */; };
+		0B12F15D195D82070044ED98 /* MyOrder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F15B195D82070044ED98 /* MyOrder.framework */; };
+		0B12F15F195D82150044ED98 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F15E195D82150044ED98 /* AddressBook.framework */; };
+		0B12F161195D82190044ED98 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F160195D82190044ED98 /* AddressBookUI.framework */; };
+		0B12F163195D822F0044ED98 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F162195D822F0044ED98 /* Security.framework */; };
+		0B12F18C195D82570044ED98 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F16D195D82570044ED98 /* libCardIO.a */; };
+		0B12F18E195D82570044ED98 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B12F170195D82570044ED98 /* libPayPalMPL.a */; };
+		0B12F190195D82570044ED98 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B12F17E195D82570044ED98 /* SVProgressHUD.bundle */; };
+		0B12F191195D82570044ED98 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F180195D82570044ED98 /* SVProgressHUD.m */; };
+		0B12F193195D82570044ED98 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F184195D82570044ED98 /* TPKeyboardAvoidingCollectionView.m */; };
+		0B12F194195D82570044ED98 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F186195D82570044ED98 /* TPKeyboardAvoidingScrollView.m */; };
+		0B12F195195D82570044ED98 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F188195D82570044ED98 /* TPKeyboardAvoidingTableView.m */; };
+		0B12F196195D82570044ED98 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F18A195D82570044ED98 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		0B12F19E195D83020044ED98 /* LUKeychainAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F19A195D83020044ED98 /* LUKeychainAccess.m */; };
+		0B12F19F195D83020044ED98 /* LUKeychainServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F19D195D83020044ED98 /* LUKeychainServices.m */; };
+		0B12F1A7195D83AF0044ED98 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F1A5195D83AF0044ED98 /* Reachability.m */; };
+		0B12F1A9195D9A5B0044ED98 /* MyOrder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B12F1A8195D9A5B0044ED98 /* MyOrder.bundle */; };
+		0B12F1AC195D9F3F0044ED98 /* ProductListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12F1AB195D9F3F0044ED98 /* ProductListTableViewController.m */; };
+		0BBC0B12195D743E0053389E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBC0B11195D743E0053389E /* Foundation.framework */; };
+		0BBC0B14195D743E0053389E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBC0B13195D743E0053389E /* CoreGraphics.framework */; };
+		0BBC0B16195D743E0053389E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBC0B15195D743E0053389E /* UIKit.framework */; };
+		0BBC0B1C195D743E0053389E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BBC0B1A195D743E0053389E /* InfoPlist.strings */; };
+		0BBC0B1E195D743E0053389E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC0B1D195D743E0053389E /* main.m */; };
+		0BBC0B22195D743E0053389E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC0B21195D743E0053389E /* AppDelegate.m */; };
+		0BBC0B25195D743E0053389E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBC0B23195D743E0053389E /* Main.storyboard */; };
+		0BBC0B2D195D743E0053389E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBC0B2C195D743E0053389E /* Images.xcassets */; };
+		0BBC0B34195D743E0053389E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBC0B33195D743E0053389E /* XCTest.framework */; };
+		0BBC0B35195D743E0053389E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBC0B11195D743E0053389E /* Foundation.framework */; };
+		0BBC0B36195D743E0053389E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBC0B15195D743E0053389E /* UIKit.framework */; };
+		0BBC0B3E195D743E0053389E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BBC0B3C195D743E0053389E /* InfoPlist.strings */; };
+		0BBC0B40195D743E0053389E /* MOFExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC0B3F195D743E0053389E /* MOFExampleTests.m */; };
+		0BBC0B4F195D74850053389E /* MerchantsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC0B4E195D74850053389E /* MerchantsListViewController.m */; };
+		0BBC0B52195D74B00053389E /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBC0B51195D74B00053389E /* ProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BBC0B37195D743E0053389E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BBC0B06195D743E0053389E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BBC0B0D195D743E0053389E;
+			remoteInfo = MOFExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B12F154195D81390044ED98 /* MOFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOFramework.framework; sourceTree = "<group>"; };
+		0B12F157195D819A0044ED98 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0B12F159195D81B20044ED98 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		0B12F15B195D82070044ED98 /* MyOrder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyOrder.framework; sourceTree = "<group>"; };
+		0B12F15E195D82150044ED98 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0B12F160195D82190044ED98 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		0B12F162195D822F0044ED98 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0B12F167195D82570044ED98 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		0B12F168195D82570044ED98 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		0B12F169195D82570044ED98 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		0B12F16A195D82570044ED98 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		0B12F16B195D82570044ED98 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		0B12F16C195D82570044ED98 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		0B12F16D195D82570044ED98 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		0B12F170195D82570044ED98 /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		0B12F171195D82570044ED98 /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		0B12F172195D82570044ED98 /* PayPalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAddress.h; sourceTree = "<group>"; };
+		0B12F173195D82570044ED98 /* PayPalAdvancedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAdvancedPayment.h; sourceTree = "<group>"; };
+		0B12F174195D82570044ED98 /* PayPalAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAmounts.h; sourceTree = "<group>"; };
+		0B12F175195D82570044ED98 /* PayPalInvoiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceData.h; sourceTree = "<group>"; };
+		0B12F176195D82570044ED98 /* PayPalInvoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceItem.h; sourceTree = "<group>"; };
+		0B12F177195D82570044ED98 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		0B12F178195D82570044ED98 /* PayPalPreapprovalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPreapprovalDetails.h; sourceTree = "<group>"; };
+		0B12F179195D82570044ED98 /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
+		0B12F17A195D82570044ED98 /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
+		0B12F17D195D82570044ED98 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		0B12F17E195D82570044ED98 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0B12F17F195D82570044ED98 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		0B12F180195D82570044ED98 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		0B12F183195D82570044ED98 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		0B12F184195D82570044ED98 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		0B12F185195D82570044ED98 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		0B12F186195D82570044ED98 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		0B12F187195D82570044ED98 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		0B12F188195D82570044ED98 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		0B12F189195D82570044ED98 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		0B12F18A195D82570044ED98 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		0B12F198195D83020044ED98 /* LUKeychainAccess-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LUKeychainAccess-Prefix.pch"; sourceTree = "<group>"; };
+		0B12F199195D83020044ED98 /* LUKeychainAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUKeychainAccess.h; sourceTree = "<group>"; };
+		0B12F19A195D83020044ED98 /* LUKeychainAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUKeychainAccess.m; sourceTree = "<group>"; };
+		0B12F19B195D83020044ED98 /* LUKeychainErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUKeychainErrorHandler.h; sourceTree = "<group>"; };
+		0B12F19C195D83020044ED98 /* LUKeychainServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUKeychainServices.h; sourceTree = "<group>"; };
+		0B12F19D195D83020044ED98 /* LUKeychainServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUKeychainServices.m; sourceTree = "<group>"; };
+		0B12F1A4195D83AF0044ED98 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0B12F1A5195D83AF0044ED98 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0B12F1A8195D9A5B0044ED98 /* MyOrder.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MyOrder.bundle; path = MyOrder.framework/Versions/A/Resources/MyOrder.bundle; sourceTree = "<group>"; };
+		0B12F1AA195D9F3F0044ED98 /* ProductListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListTableViewController.h; sourceTree = "<group>"; };
+		0B12F1AB195D9F3F0044ED98 /* ProductListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListTableViewController.m; sourceTree = "<group>"; };
+		0BBC0B0E195D743E0053389E /* MOFExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOFExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBC0B11195D743E0053389E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BBC0B13195D743E0053389E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BBC0B15195D743E0053389E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BBC0B19195D743E0053389E /* MOFExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOFExample-Info.plist"; sourceTree = "<group>"; };
+		0BBC0B1B195D743E0053389E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BBC0B1D195D743E0053389E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BBC0B1F195D743E0053389E /* MOFExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOFExample-Prefix.pch"; sourceTree = "<group>"; };
+		0BBC0B20195D743E0053389E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BBC0B21195D743E0053389E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BBC0B24195D743E0053389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BBC0B2C195D743E0053389E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BBC0B32195D743E0053389E /* MOFExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOFExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBC0B33195D743E0053389E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BBC0B3B195D743E0053389E /* MOFExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOFExampleTests-Info.plist"; sourceTree = "<group>"; };
+		0BBC0B3D195D743E0053389E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BBC0B3F195D743E0053389E /* MOFExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOFExampleTests.m; sourceTree = "<group>"; };
+		0BBC0B4D195D74850053389E /* MerchantsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantsListViewController.h; sourceTree = "<group>"; };
+		0BBC0B4E195D74850053389E /* MerchantsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantsListViewController.m; sourceTree = "<group>"; };
+		0BBC0B50195D74B00053389E /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		0BBC0B51195D74B00053389E /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BBC0B0B195D743E0053389E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B12F163195D822F0044ED98 /* Security.framework in Frameworks */,
+				0B12F161195D82190044ED98 /* AddressBookUI.framework in Frameworks */,
+				0B12F15F195D82150044ED98 /* AddressBook.framework in Frameworks */,
+				0B12F15A195D81B20044ED98 /* PassKit.framework in Frameworks */,
+				0B12F18E195D82570044ED98 /* libPayPalMPL.a in Frameworks */,
+				0B12F15C195D82070044ED98 /* MyOrder.framework in Frameworks */,
+				0B12F158195D819A0044ED98 /* CoreLocation.framework in Frameworks */,
+				0BBC0B14195D743E0053389E /* CoreGraphics.framework in Frameworks */,
+				0BBC0B16195D743E0053389E /* UIKit.framework in Frameworks */,
+				0BBC0B12195D743E0053389E /* Foundation.framework in Frameworks */,
+				0B12F155195D81390044ED98 /* MOFramework.framework in Frameworks */,
+				0B12F18C195D82570044ED98 /* libCardIO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBC0B2F195D743E0053389E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBC0B34195D743E0053389E /* XCTest.framework in Frameworks */,
+				0B12F15D195D82070044ED98 /* MyOrder.framework in Frameworks */,
+				0BBC0B36195D743E0053389E /* UIKit.framework in Frameworks */,
+				0BBC0B35195D743E0053389E /* Foundation.framework in Frameworks */,
+				0B12F156195D81390044ED98 /* MOFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B12F164195D82570044ED98 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F1A2195D83AF0044ED98 /* Reachability */,
+				0B12F197195D83020044ED98 /* LUKeychainAccess */,
+				0B12F165195D82570044ED98 /* CardIO */,
+				0B12F16F195D82570044ED98 /* PayPalMPL */,
+				0B12F17B195D82570044ED98 /* SVProgressHUD */,
+				0B12F181195D82570044ED98 /* TPKeyboardAvoiding */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		0B12F165195D82570044ED98 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F167195D82570044ED98 /* CardIO.h */,
+				0B12F168195D82570044ED98 /* CardIOCreditCardInfo.h */,
+				0B12F169195D82570044ED98 /* CardIOPaymentViewController.h */,
+				0B12F16A195D82570044ED98 /* CardIOPaymentViewControllerDelegate.h */,
+				0B12F16B195D82570044ED98 /* CardIOView.h */,
+				0B12F16C195D82570044ED98 /* CardIOViewDelegate.h */,
+				0B12F16D195D82570044ED98 /* libCardIO.a */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		0B12F16F195D82570044ED98 /* PayPalMPL */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F170195D82570044ED98 /* libPayPalMPL.a */,
+				0B12F171195D82570044ED98 /* PayPal.h */,
+				0B12F172195D82570044ED98 /* PayPalAddress.h */,
+				0B12F173195D82570044ED98 /* PayPalAdvancedPayment.h */,
+				0B12F174195D82570044ED98 /* PayPalAmounts.h */,
+				0B12F175195D82570044ED98 /* PayPalInvoiceData.h */,
+				0B12F176195D82570044ED98 /* PayPalInvoiceItem.h */,
+				0B12F177195D82570044ED98 /* PayPalPayment.h */,
+				0B12F178195D82570044ED98 /* PayPalPreapprovalDetails.h */,
+				0B12F179195D82570044ED98 /* PayPalReceiverAmounts.h */,
+				0B12F17A195D82570044ED98 /* PayPalReceiverPaymentDetails.h */,
+			);
+			path = PayPalMPL;
+			sourceTree = "<group>";
+		};
+		0B12F17B195D82570044ED98 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F17D195D82570044ED98 /* SVProgressHUD-Prefix.pch */,
+				0B12F17E195D82570044ED98 /* SVProgressHUD.bundle */,
+				0B12F17F195D82570044ED98 /* SVProgressHUD.h */,
+				0B12F180195D82570044ED98 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		0B12F181195D82570044ED98 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F183195D82570044ED98 /* TPKeyboardAvoidingCollectionView.h */,
+				0B12F184195D82570044ED98 /* TPKeyboardAvoidingCollectionView.m */,
+				0B12F185195D82570044ED98 /* TPKeyboardAvoidingScrollView.h */,
+				0B12F186195D82570044ED98 /* TPKeyboardAvoidingScrollView.m */,
+				0B12F187195D82570044ED98 /* TPKeyboardAvoidingTableView.h */,
+				0B12F188195D82570044ED98 /* TPKeyboardAvoidingTableView.m */,
+				0B12F189195D82570044ED98 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				0B12F18A195D82570044ED98 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		0B12F197195D83020044ED98 /* LUKeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F198195D83020044ED98 /* LUKeychainAccess-Prefix.pch */,
+				0B12F199195D83020044ED98 /* LUKeychainAccess.h */,
+				0B12F19A195D83020044ED98 /* LUKeychainAccess.m */,
+				0B12F19B195D83020044ED98 /* LUKeychainErrorHandler.h */,
+				0B12F19C195D83020044ED98 /* LUKeychainServices.h */,
+				0B12F19D195D83020044ED98 /* LUKeychainServices.m */,
+			);
+			path = LUKeychainAccess;
+			sourceTree = "<group>";
+		};
+		0B12F1A2195D83AF0044ED98 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F1A4195D83AF0044ED98 /* Reachability.h */,
+				0B12F1A5195D83AF0044ED98 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		0BBC0B05195D743E0053389E = {
+			isa = PBXGroup;
+			children = (
+				0BBC0B17195D743E0053389E /* MOFExample */,
+				0B12F164195D82570044ED98 /* external */,
+				0BBC0B39195D743E0053389E /* MOFExampleTests */,
+				0BBC0B10195D743E0053389E /* Frameworks */,
+				0BBC0B0F195D743E0053389E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BBC0B0F195D743E0053389E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC0B0E195D743E0053389E /* MOFExample.app */,
+				0BBC0B32195D743E0053389E /* MOFExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BBC0B10195D743E0053389E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B12F1A8195D9A5B0044ED98 /* MyOrder.bundle */,
+				0B12F162195D822F0044ED98 /* Security.framework */,
+				0B12F160195D82190044ED98 /* AddressBookUI.framework */,
+				0B12F15E195D82150044ED98 /* AddressBook.framework */,
+				0B12F15B195D82070044ED98 /* MyOrder.framework */,
+				0B12F159195D81B20044ED98 /* PassKit.framework */,
+				0B12F157195D819A0044ED98 /* CoreLocation.framework */,
+				0B12F154195D81390044ED98 /* MOFramework.framework */,
+				0BBC0B11195D743E0053389E /* Foundation.framework */,
+				0BBC0B13195D743E0053389E /* CoreGraphics.framework */,
+				0BBC0B15195D743E0053389E /* UIKit.framework */,
+				0BBC0B33195D743E0053389E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BBC0B17195D743E0053389E /* MOFExample */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC0B4C195D74850053389E /* ViewControllers */,
+				0BBC0B20195D743E0053389E /* AppDelegate.h */,
+				0BBC0B21195D743E0053389E /* AppDelegate.m */,
+				0BBC0B23195D743E0053389E /* Main.storyboard */,
+				0BBC0B2C195D743E0053389E /* Images.xcassets */,
+				0BBC0B18195D743E0053389E /* Supporting Files */,
+			);
+			path = MOFExample;
+			sourceTree = "<group>";
+		};
+		0BBC0B18195D743E0053389E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC0B19195D743E0053389E /* MOFExample-Info.plist */,
+				0BBC0B1A195D743E0053389E /* InfoPlist.strings */,
+				0BBC0B1D195D743E0053389E /* main.m */,
+				0BBC0B1F195D743E0053389E /* MOFExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BBC0B39195D743E0053389E /* MOFExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC0B3F195D743E0053389E /* MOFExampleTests.m */,
+				0BBC0B3A195D743E0053389E /* Supporting Files */,
+			);
+			path = MOFExampleTests;
+			sourceTree = "<group>";
+		};
+		0BBC0B3A195D743E0053389E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC0B3B195D743E0053389E /* MOFExampleTests-Info.plist */,
+				0BBC0B3C195D743E0053389E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BBC0B4C195D74850053389E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BBC0B4D195D74850053389E /* MerchantsListViewController.h */,
+				0BBC0B4E195D74850053389E /* MerchantsListViewController.m */,
+				0B12F1AA195D9F3F0044ED98 /* ProductListTableViewController.h */,
+				0B12F1AB195D9F3F0044ED98 /* ProductListTableViewController.m */,
+				0BBC0B50195D74B00053389E /* ProfileViewController.h */,
+				0BBC0B51195D74B00053389E /* ProfileViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BBC0B0D195D743E0053389E /* MOFExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBC0B43195D743E0053389E /* Build configuration list for PBXNativeTarget "MOFExample" */;
+			buildPhases = (
+				0BBC0B0A195D743E0053389E /* Sources */,
+				0BBC0B0B195D743E0053389E /* Frameworks */,
+				0BBC0B0C195D743E0053389E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOFExample;
+			productName = MOFExample;
+			productReference = 0BBC0B0E195D743E0053389E /* MOFExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BBC0B31195D743E0053389E /* MOFExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBC0B46195D743E0053389E /* Build configuration list for PBXNativeTarget "MOFExampleTests" */;
+			buildPhases = (
+				0BBC0B2E195D743E0053389E /* Sources */,
+				0BBC0B2F195D743E0053389E /* Frameworks */,
+				0BBC0B30195D743E0053389E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BBC0B38195D743E0053389E /* PBXTargetDependency */,
+			);
+			name = MOFExampleTests;
+			productName = MOFExampleTests;
+			productReference = 0BBC0B32195D743E0053389E /* MOFExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BBC0B06195D743E0053389E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MyOrder;
+				TargetAttributes = {
+					0BBC0B31195D743E0053389E = {
+						TestTargetID = 0BBC0B0D195D743E0053389E;
+					};
+				};
+			};
+			buildConfigurationList = 0BBC0B09195D743E0053389E /* Build configuration list for PBXProject "MOFExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BBC0B05195D743E0053389E;
+			productRefGroup = 0BBC0B0F195D743E0053389E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BBC0B0D195D743E0053389E /* MOFExample */,
+				0BBC0B31195D743E0053389E /* MOFExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BBC0B0C195D743E0053389E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B12F190195D82570044ED98 /* SVProgressHUD.bundle in Resources */,
+				0BBC0B2D195D743E0053389E /* Images.xcassets in Resources */,
+				0BBC0B1C195D743E0053389E /* InfoPlist.strings in Resources */,
+				0BBC0B25195D743E0053389E /* Main.storyboard in Resources */,
+				0B12F1A9195D9A5B0044ED98 /* MyOrder.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBC0B30195D743E0053389E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBC0B3E195D743E0053389E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BBC0B0A195D743E0053389E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B12F19F195D83020044ED98 /* LUKeychainServices.m in Sources */,
+				0B12F194195D82570044ED98 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				0B12F195195D82570044ED98 /* TPKeyboardAvoidingTableView.m in Sources */,
+				0B12F1AC195D9F3F0044ED98 /* ProductListTableViewController.m in Sources */,
+				0BBC0B22195D743E0053389E /* AppDelegate.m in Sources */,
+				0BBC0B4F195D74850053389E /* MerchantsListViewController.m in Sources */,
+				0B12F196195D82570044ED98 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				0B12F191195D82570044ED98 /* SVProgressHUD.m in Sources */,
+				0B12F19E195D83020044ED98 /* LUKeychainAccess.m in Sources */,
+				0BBC0B52195D74B00053389E /* ProfileViewController.m in Sources */,
+				0B12F193195D82570044ED98 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				0B12F1A7195D83AF0044ED98 /* Reachability.m in Sources */,
+				0BBC0B1E195D743E0053389E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BBC0B2E195D743E0053389E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBC0B40195D743E0053389E /* MOFExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BBC0B38195D743E0053389E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BBC0B0D195D743E0053389E /* MOFExample */;
+			targetProxy = 0BBC0B37195D743E0053389E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BBC0B1A195D743E0053389E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BBC0B1B195D743E0053389E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BBC0B23195D743E0053389E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BBC0B24195D743E0053389E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BBC0B3C195D743E0053389E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BBC0B3D195D743E0053389E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BBC0B41195D743E0053389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/MOFramework.framework/**",
+					"${SRCROOT}/MyOrder.framework/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BBC0B42195D743E0053389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/MOFramework.framework/**",
+					"${SRCROOT}/MyOrder.framework/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BBC0B44195D743E0053389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOFExample/MOFExample-Prefix.pch";
+				INFOPLIST_FILE = "MOFExample/MOFExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/CardIO",
+					"$(PROJECT_DIR)/external/PayPalMPL",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BBC0B45195D743E0053389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOFExample/MOFExample-Prefix.pch";
+				INFOPLIST_FILE = "MOFExample/MOFExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/CardIO",
+					"$(PROJECT_DIR)/external/PayPalMPL",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BBC0B47195D743E0053389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOFExample.app/MOFExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOFExample/MOFExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MOFExampleTests/MOFExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BBC0B48195D743E0053389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOFExample.app/MOFExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOFExample/MOFExample-Prefix.pch";
+				INFOPLIST_FILE = "MOFExampleTests/MOFExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BBC0B09195D743E0053389E /* Build configuration list for PBXProject "MOFExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBC0B41195D743E0053389E /* Debug */,
+				0BBC0B42195D743E0053389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BBC0B43195D743E0053389E /* Build configuration list for PBXNativeTarget "MOFExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBC0B44195D743E0053389E /* Debug */,
+				0BBC0B45195D743E0053389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BBC0B46195D743E0053389E /* Build configuration list for PBXNativeTarget "MOFExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBC0B47195D743E0053389E /* Debug */,
+				0BBC0B48195D743E0053389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BBC0B06195D743E0053389E /* Project object */;
+}
