@@ -170,26 +170,38 @@
                                                   onError:(MOFBaseDAOErrorBlock)errorBlock;
 
 
-/** Load a category detail
- @param category Category to laod
- @param animation loading indicator style
- @param resultBlock Block executed when the result is returned. Result contains an updated MOFCategory
- @param errorBlock Block to execute in case of error
+
+/**
+ *  Load a category detail
+ *
+ *  @param category    Category to laod
+ *  @param animation   loading indicator style
+ *  @param resultBlock Block executed when the result is returned. Result contains an updated MOFCategory
+ *  @param errorBlock  Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
  */
+
 - (MOFNetworkConnection *)loadCategoryDetail:(MOFCategory *)category
                                    animation:(MOFNetworkAnimation)animation
                                     onResult:(MOFBaseDAOResultBlock)resultBlock
                                      onError:(MOFBaseDAOErrorBlock)errorBlock;
 
 
-/** Load all products based on some simple criteria: types, merchants and term
- @param merchantTypes Array with all MOFMerchantType types to load. Optional.
- @param merchants Array of all MOFMerchant to retrieve products from. Optional.
- @param term search term to use. Optional
- @param animation loading indicator style
- @param resultBlock Block executed when the result is returned. Results contain an NSArray of MOFProduct
- @param errorBlock Block to execute in case of error
+/**
+ *  Load all products based on some simple criteria: types, merchants and term
+ *
+ *  @param merchantTypes Array with all MOFMerchantType types to load. Optional.
+ *  @param merchants     Array of all MOFMerchant to retrieve products from. Optional.
+ *  @param term          search term to use. Optional
+ *  @param animation     loading indicator style
+ *  @param resultBlock   Block executed when the result is returned. Results contain an NSArray of MOFProduct
+ *  @param errorBlock    Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
  */
+
+
 - (MOFNetworkConnection *)loadProductsWithMerchantTypes:(NSArray *)merchantTypes
                                               merchants:(NSArray *)merchants
                                                    term:(NSString *)term
@@ -199,18 +211,23 @@
 
 
 
-/** Load all products based on some advance criteria like type, merchants, categories, term,...
- @param merchantTypes Array with all MOFMerchantType types to load. Optional.
- @param merchants Array of all MOFMerchant to retrieve products from. Optional.
- @param term search term to use. Optional
- @param categories Array of all MOFCategory instances to retrieve products from. Optional.
- @param externalIds Array of ids read from a QR code or any other external source. Optional
- @param offset Position of first result to be returned in paginated results
- @param limit Amount of results to retrieve
- @param animation loading indicator style
- @param resultBlock Block executed when the result is returned. Results contain an NSArray of MOFProduct
- @param errorBlock Block to execute in case of error
+/**
+ *  Load all products based on some advance criteria like type, merchants, categories, term,...
+ *
+ *  @param merchantTypes Array with all MOFMerchantType types to load. Optional.
+ *  @param merchants     Array of all MOFMerchant to retrieve products from. Optional.
+ *  @param term          search term to use. Optional
+ *  @param categories    Array of all MOFCategory instances to retrieve products from. Optional.
+ *  @param externalIds   Array of ids read from a QR code or any other external source. Optional
+ *  @param offset        Position of first result to be returned in paginated results
+ *  @param limit         Amount of results to retrieve
+ *  @param animation     loading indicator style
+ *  @param resultBlock   Block executed when the result is returned. Results contain an NSArray of MOFProduct
+ *  @param errorBlock    Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
  */
+
 - (MOFNetworkConnection *)loadProductsWithMerchantTypes:(NSArray *)merchantTypes
                                               merchants:(NSArray *)merchants
                                                    term:(NSString *)term

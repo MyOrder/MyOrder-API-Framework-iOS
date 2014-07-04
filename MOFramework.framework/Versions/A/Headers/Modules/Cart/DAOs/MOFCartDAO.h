@@ -165,12 +165,6 @@ static const NSString *kMOFCartUpdateNotification = @"kMOFCartUpdateNotification
                         onError:(MOFBaseDAOErrorBlock)errorBlock;
 
 
-#warning Check if this can be remvoed
-- (void)completeCheckoutWithMOOrder:(MOOrder *)order
-                          animation:(MOFNetworkAnimation)animation
-                           onResult:(MOFBaseDAOResultBlock)resultBlock
-                            onError:(MOFBaseDAOErrorBlock)errorBlock;
-
 /**
  *  Cancels a previsouly checkout out order. This method will revert the order back into a valid shopping cart
  *

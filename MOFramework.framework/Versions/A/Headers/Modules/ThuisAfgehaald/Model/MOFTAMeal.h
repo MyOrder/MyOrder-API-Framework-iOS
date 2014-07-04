@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 @import MapKit;
 
-@class MOFTACook, MOFTAThank, MOFTAPickUp;
+@class MOFTAThank, MOFTAPickUp, MOFTACook;
 
 @interface MOFTAMeal : MOFModelObject
 
@@ -24,10 +24,20 @@
 @property (nonatomic, strong) NSString * thumbnailUrl;
 @property (nonatomic, strong) NSString * title;
 @property (nonatomic, strong) NSString * type;
-@property (nonatomic, weak) MOFTACook * cook;
 @property (nonatomic, weak) MOFTAPickUp * pickUp;
 @property (nonatomic, strong) NSOrderedSet * thank;
+@property (nonatomic, strong) NSString *cookIdentifier;
+@property (nonatomic, strong) NSString *cookProfileName;
+@property (nonatomic, strong) NSString *cookLat;
+@property (nonatomic, strong) NSString *cookLng;
 @end
 
 @interface MOFTAMeal (MKAnnotation)<MKAnnotation>
+@end
+
+
+@interface MOFTAMeal (Relations)
+
+@property (nonatomic, strong) MOFTACook *cook;
+
 @end

@@ -12,11 +12,37 @@
 @class MOFMerchant;
 @interface MOFPassbookDAO : MOFBaseDAO
 
+/**
+ *  Load passbook pass for Ticket
+ *
+ *  @param ticketId    Ticket Id
+ *  @param animation   loading indicator style
+ *  @param resultBlock Block executed when the result is returned result contains PKAddPassesViewController object
+ *  @param errorBlock  Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
+ */
+
 
 - (MOFNetworkConnection *)loadPassWithTicket:(NSString *)ticketId
                                withAnimation:(MOFNetworkAnimation)animation
                                    onSuccess:(MOFBaseDAOResultBlock)resultBlock
                                    onFailure:(MOFBaseDAOErrorBlock)errorBlock;
+
+
+
+/**
+ *  Load Pass for Receipt Id
+ *
+ *  @param orderId      Order Id
+ *  @param description  description for pass
+ *  @param takeAwayTime take away time
+ *  @param animation    loading indicator style
+ *  @param resultBlock  Block executed when the result is returned result contains PKAddPassesViewController object
+ *  @param errorBlock   Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
+ */
 
 
 - (MOFNetworkConnection *)loadPassForReceiptWithOrderId:(NSString *)orderId
@@ -25,18 +51,5 @@
                                           withAnimation:(MOFNetworkAnimation)animation
                                               onSuccess:(MOFBaseDAOResultBlock)resultBlock
                                               onFailure:(MOFBaseDAOErrorBlock)errorBlock;
-
-
--(MOFNetworkConnection *)modifyPassForMerchant:(MOFMerchant*)merchant
-                                 withAniamtion:(MOFNetworkAnimation)animation
-                         currentPassIdentifier:(NSString *)passIdentifier
-                       currentPassSerialNumber:(NSString *)serialNumber
-                                     onSuccess:(MOFBaseDAOResultBlock)resultBlock
-                                     onFailure:(MOFBaseDAOErrorBlock)errorBlock;
-
--(MOFNetworkConnection *)removePassWithIdentifier:(NSString *)passIdentifier
-                                 passSerialNumber:(NSString *)serialNumber
-                                        onSuccess:(MOFBaseDAOResultBlock)resultBlock
-                                        onFailure:(MOFBaseDAOErrorBlock)errorBlock;
 
 @end

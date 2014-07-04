@@ -25,6 +25,7 @@
     myOrder.apiSecret = @"12H@c9kT$At";
     myOrder.URLScheme = @"mof-example";
     myOrder.environment = MyOrderEnvironmentPlayground;
+    [myOrder configureWithPaymentProviders:@[@"MiniTix", @"iDeal", @"Card", @"OTA"]];   //We do not support credit card or Paypal in this example
     
     //MOFramework setup
     [MOFNetworkConnection setBaseUrl:@"http://playground-java.myorder.nl/api/v1/"];

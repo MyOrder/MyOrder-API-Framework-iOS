@@ -17,6 +17,5 @@
 @property (nonatomic, strong) NSString * datetime;
 @property (nonatomic, strong) NSString * name;
 @property (nonatomic, strong) NSString * thumbnail;
-@property (nonatomic, strong) NSOrderedSet *meals;
 
 @end

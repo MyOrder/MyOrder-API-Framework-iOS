@@ -7,26 +7,61 @@
 //
 
 #import "MOFBaseDAO.h"
-#import "MOFTickets.h"
+#import "MOFTicket.h"
 
 @class MOFCoupon;
 
 @interface MOFTicketsDAO : MOFBaseDAO
+
+/** 
+ *  Load Ticket
+ *
+ *  @param animation   loading indicator style
+ *  @param resultBlock Block executed when the result is returned result contains Array of MOFTicket
+ *  @param errorBlock  Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
+ */
 
 - (MOFNetworkConnection *)loadTicketsWithAnimation:(MOFNetworkAnimation)animation
                                           onResult:(MOFBaseDAOResultBlock)resultBlock
                                            onError:(MOFBaseDAOErrorBlock)errorBlock;
 
 
-- (MOFNetworkConnection *)loadTicketsDetail:(MOFTickets *)ticket
+/** 
+ *  Load Ticket Detail
+ *
+ *  @param ticket      Ticket object
+ *  @param animation   loading indicator style
+ *  @param resultBlock Block executed when the result is returned result contains MOFTicket
+ *  @param errorBlock  Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
+ */
+
+
+
+- (MOFNetworkConnection *)loadTicketsDetail:(MOFTicket *)ticket
                                   animation:(MOFNetworkAnimation)animation
                                    onResult:(MOFBaseDAOResultBlock)resultBlock
                                     onError:(MOFBaseDAOErrorBlock)errorBlock;
 
 
-- (MOFNetworkConnection *)loadTicketsDetailToMarkUsed:(MOFTickets *)ticket
-                                            animation:(MOFNetworkAnimation)animation
-                                             onResult:(MOFBaseDAOResultBlock)resultBlock
-                                              onError:(MOFBaseDAOErrorBlock)errorBlock;
+/** 
+ *  Mark Ticket Used
+ *
+ *  @param ticket      Ticket Object
+ *  @param animation   loading indicator style
+ *  @param resultBlock Block executed when the result is returned result contains MOFTicket
+ *  @param errorBlock  Block to execute in case of error
+ *
+ *  @return Connection fired. Cancellable.
+ */
+
+
+- (MOFNetworkConnection *)markTicketUsed:(MOFTicket *)ticket
+                               animation:(MOFNetworkAnimation)animation
+                                onResult:(MOFBaseDAOResultBlock)resultBlock
+                                 onError:(MOFBaseDAOErrorBlock)errorBlock;
 
 @end

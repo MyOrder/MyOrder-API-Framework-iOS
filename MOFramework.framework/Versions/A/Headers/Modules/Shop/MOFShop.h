@@ -19,6 +19,7 @@
 #import "MOFCoupon.h"
 #import "MOFCheckIn.h"
 #import "MOFCheckInStatus.h"
+#import "MOFCluster.h"
 
 //DAOs
 #import "MOFShopDAO.h"

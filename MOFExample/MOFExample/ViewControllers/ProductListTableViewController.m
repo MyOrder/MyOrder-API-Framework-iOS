@@ -49,6 +49,7 @@
     MOFProduct *product = self.products[indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"productCell" forIndexPath:indexPath];
     cell.textLabel.text = product.name;
+    ((UILabel *)cell.accessoryView).text = [NSString stringWithFormat:@"€%.2f", [product.salePrice floatValue]];
     return cell;
 }
 

@@ -10,7 +10,7 @@
 
 @class MOFMerchant;
 
-@interface MOFTickets : MOFModelObject
+@interface MOFTicket : MOFModelObject
 
 @property (nonatomic, strong) NSString * identifier;
 @property (nonatomic, strong) NSString * date;
@@ -25,14 +25,14 @@
 
 @end
 
-@interface MOFTickets (Utils)
+@interface MOFTicket (Utils)
 
 - (UIImage *)barcodeForWidth:(CGFloat)width;
 - (NSDate *)timeStamp;
 
 @end
 
-@interface MOFTickets (Relations)
+@interface MOFTicket (Relations)
 
 @property (nonatomic, weak) MOFMerchant *merchant;
 
